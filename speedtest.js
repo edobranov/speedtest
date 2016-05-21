@@ -3,7 +3,9 @@ URLs = ["http://i.imgur.com/TPUKiS2.jpg",
 	"https://upload.wikimedia.org/wikipedia/commons/2/2d/Snake_River_(5mb).jpg",
 	"https://upload.wikimedia.org/wikipedia/commons/3/3c/Enrique_Simonet_-_Marina_veneciana_6MB.jpg"];
 		
-ratesum = 0;			// Net sum of the trials gathered from the URLs above
+ratesum = 0;		// Net sum of the trials gathered from the URLs above
+
+findSpeed(0);		// The function call you'd use to start the process :)
 
 // Simple cache busting appending function in "Base64". This essentially makes repeating URLs near-impossible
 // for our purpose, and prevents the web browser from accessing the test image from the cache, effectively
