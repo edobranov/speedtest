@@ -1,5 +1,5 @@
 // Test URLs to hit with requests
-URLs = ["http://i.imgur.com/TPUKiS2.jpg",
+URLs = ["https://upload.wikimedia.org/wikipedia/commons/1/1e/Caerte_van_Oostlant_4MB.jpg",
 	"https://upload.wikimedia.org/wikipedia/commons/2/2d/Snake_River_(5mb).jpg",
 	"https://upload.wikimedia.org/wikipedia/commons/3/3c/Enrique_Simonet_-_Marina_veneciana_6MB.jpg"];
 		
