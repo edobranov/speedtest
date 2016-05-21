@@ -1,7 +1,7 @@
 // Test URLs to hit with requests
 URLs = ["http://i.imgur.com/TPUKiS2.jpg",
-		"https://upload.wikimedia.org/wikipedia/commons/2/2d/Snake_River_(5mb).jpg",
-		"https://upload.wikimedia.org/wikipedia/commons/3/3c/Enrique_Simonet_-_Marina_veneciana_6MB.jpg"];
+	"https://upload.wikimedia.org/wikipedia/commons/2/2d/Snake_River_(5mb).jpg",
+	"https://upload.wikimedia.org/wikipedia/commons/3/3c/Enrique_Simonet_-_Marina_veneciana_6MB.jpg"];
 		
 ratesum = 0;			// Net sum of the trials gathered from the URLs above
 
@@ -24,7 +24,7 @@ function cachebust()
 // Recursive function that evaluates all URLs one-by-one and records the time to contact each one
 function findSpeed(i)
 {
-	var request = new XMLHttpRequest();					// API we're using
+	var request = new XMLHttpRequest();			// API we're using
 	request.open("GET", URLs[i] + cachebust(), true);	// Open the URL with a random Base64 string
 	
 	request.onreadystatechange = function()
